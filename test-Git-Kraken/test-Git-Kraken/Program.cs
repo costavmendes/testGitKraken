@@ -8,5 +8,11 @@ namespace test_Git_Kraken
         {
             Console.WriteLine("Hello World!");
         }
+
+        static int Somar(int numero)
+        {
+            int resultado = numero + 5;
+            return resultado;
+        }
     }
 }
